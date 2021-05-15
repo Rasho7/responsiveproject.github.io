@@ -1,0 +1,287 @@
+/* CSS Reset */
+*{
+ margin: 0;   
+ padding: 0;
+ /* margin-bottom: 100px; */
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+/* CSS Variables */
+:root{
+    --navbar-height: 59px;
+}
+
+/* Navigation Bar */
+#navbar{
+    position: sticky;
+    display: flex;
+    align-items: center;
+    top: 0px;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+
+/* Navigation Bar: Logo and Image */
+
+#logo{
+    margin: 10px 33px;
+
+}
+
+#logo img{
+    margin: 3px 4px;
+   height: 60px;
+}
+
+/* Navigation Bar: ul */
+
+#navbar ul{
+    display: flex;
+    
+}
+
+#navbar ul li{
+    list-style: none;
+}
+
+
+
+#navbar::before{
+    position: absolute;
+    /* position: relative; */
+    content: "";
+    background-color: black;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+opacity: 0.6;
+}
+
+#navbar ul li a{
+    display: block;
+    text-decoration: none;
+    font-size: 1.3rem;
+    padding: 4px 20px;
+    color: white;
+ border-radius: 22px;
+    
+}
+
+#navbar ul li a:hover{
+    color: black;
+    background-color: white;
+ 
+}
+
+/* Home Section */
+
+#home{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* padding: 3px 100px; */
+    height: 670px;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+#home::before{
+content: "";
+position: absolute;
+/* background:url(../img/bg.jpg); */
+background: url(/img/bg2.jpg) no-repeat center center/cover;
+height: 110%;
+width: 100%;
+z-index: -1;
+opacity: 0.9;
+top: 0;
+left: 0;
+
+}
+
+.h-primary{
+    font-size: 3rem;
+    color: white;
+    text-align: center;
+    /* font-family: 'Ubuntu', sans-serif; */
+}
+
+#home p{
+    font-size: 1.3rem;
+    color: white;
+    /* font-family: 'Ubuntu', sans-serif; */
+}
+.btn{
+    padding: 6px;
+    border: 2px solid white;
+    background-color: sandybrown;
+    border-radius: 4px;
+    font-size: 1.2rem;
+    color: white;
+    margin: 10px;
+    cursor: pointer;
+    /* font-family: 'Ubuntu', sans-serif; */
+}
+
+#Services{
+    font-family: 'Ubuntu', sans-serif;
+}
+
+#Services .box img{
+height: 300px;
+width: 300px;
+/* justify-content: center; */
+/* align-items: center; */
+display: block;
+margin: auto;
+margin-top: 20px;
+margin-bottom: 20px;
+}
+
+.h-primary-service{
+    font-size: 3rem;
+    color:black;
+    text-align: center;
+    /* font-family: 'Ubuntu', sans-serif; */
+}
+
+#Services .box{
+    /* width: 400px; */
+    display: flex;
+/* flex-direction: row; */
+/* width: auto; */
+}
+
+#Services .service-box{
+    border: 2px solid red;
+    display: block;
+    margin: auto;
+    width: 400px;
+    height: 450px;
+    border-radius: 10px;
+    background-color: blanchedalmond;
+    
+
+}
+
+#Services .box p{
+text-align: center;
+justify-content: center;
+}
+
+.h-secondary{
+    font-size: 1.8rem;
+    color: black;
+    text-align: center;
+    /* font-family: 'Ubuntu', sans-serif; */
+}
+
+#Services .h-primary-service{
+    display:block ;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+.h-primary-client{
+    font-size: 3rem;
+    color:white;
+    text-align: center;
+    font-family: 'Ubuntu', sans-serif;
+    display: block;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.client-box{
+    display: flex;
+    /* align-items: center; */
+    /* justify-content: center; */
+    /* flex-direction: column; */
+}
+
+
+
+.client-logo{
+display: block;
+margin: auto;
+/* height: 50px; */
+/* width: 50px; */
+}
+
+#client-section{
+    content: "";
+    position: relative;
+    /* background:url(../img/bg.jpg); */
+    background: url(/img/Client2.jpg) no-repeat center center/cover;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.8;
+    /* top: 0; */
+    /* left: 0; */
+}
+ 
+/* Contact-Section */
+
+.h-primary-contact{
+    font-size: 3rem;
+    color:black;
+    text-align: center;
+    font-family: 'Ubuntu', sans-serif;
+    display: block;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-top: 10px;
+}
+
+#contact{
+    position: relative;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+#contact::before{
+    content: "";
+    position: absolute;
+    /* background:url(../img/bg.jpg); */
+    background: url(/img/Contact.jpg) no-repeat center center/cover;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.8;
+    /* top: 0; */
+    /* left: 0; */
+}
+
+#contact-box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 24px;
+}
+
+#contact-box input, #contact-box textarea{
+    width: 100%;
+    padding: 0.5rem;
+    border-radius: 9px;
+    font-size: 1.1rem;
+}
+
+#contact-box form{
+width: 40%;
+}
+
+#contact-box label{
+font-size: 1.3rem;
+}
+
+footer{
+    background: black;
+    color: white;
+    padding: 9px 20px;
+    /* display: block; */
+    /* margin:auto; */
+
+}
