@@ -92,7 +92,7 @@ opacity: 0.6;
 content: "";
 position: absolute;
 /* background:url(../img/bg.jpg); */
-background: url(/img/bg2.jpg) no-repeat center center/cover;
+background: url(img/bg2.jpg) no-repeat center center/cover;
 height: 110%;
 width: 100%;
 z-index: -1;
@@ -215,7 +215,7 @@ margin: auto;
     content: "";
     position: relative;
     /* background:url(../img/bg.jpg); */
-    background: url(/img/Client2.jpg) no-repeat center center/cover;
+    background: url(img/Client2.jpg) no-repeat center center/cover;
     height: 100%;
     width: 100%;
     z-index: -1;
@@ -246,7 +246,7 @@ margin: auto;
     content: "";
     position: absolute;
     /* background:url(../img/bg.jpg); */
-    background: url(/img/Contact.jpg) no-repeat center center/cover;
+    background: url(img/Contact.jpg) no-repeat center center/cover;
     height: 100%;
     width: 100%;
     z-index: -1;
