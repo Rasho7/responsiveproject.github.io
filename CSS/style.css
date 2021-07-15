@@ -223,6 +223,14 @@ margin: auto;
     /* top: 0; */
     /* left: 0; */
 }
+
+.clientImage{
+height: 150px;
+width: 150px;
+/* border: 2px solid white; */
+border-radius: 100px;
+margin-bottom: 10px;
+}
  
 /* Contact-Section */
 
@@ -275,6 +283,20 @@ width: 40%;
 
 #contact-box label{
 font-size: 1.3rem;
+}
+
+.contactbtn{
+    display: block;
+    margin: auto;
+    background: transparent;
+    padding: 6px 8px;
+    border-radius: 8px;
+    font-size: 20px;
+    color: white;
+    font-family: 'Ubuntu', sans-serif;
+    cursor: pointer;
+    border: 2px solid black;
+    font-weight: bold;
 }
 
 footer{
